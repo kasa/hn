@@ -4,6 +4,7 @@ import solidPlugin from "vite-plugin-solid";
 import WindiCSS from "vite-plugin-windicss";
 
 export default defineConfig({
+	base: "/hn/",
 	plugins: [
 		solidPlugin(),
 		WindiCSS(),
